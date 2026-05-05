@@ -76,7 +76,7 @@ export default function Projects() {
     if (!form.name.trim()) { toast.error('Название обязательно'); return; }
     setSaving(true);
     try {
-      const payload = { ...form, owner_id: form.owner_id ? parseInt(form.owner_id) : undefined };
+      const payload = { ...form, owner_id: form.owner_id ? parseInt(form.owner_id) : undefined, status: form.status as Project['status'] };
       if (editProject) {
         const updated = await updateProject(editProject.id, payload);
         setProjects(prev => prev.map(p => p.id === updated.id ? { ...p, ...updated } : p));
