@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(New-Item -ItemType Directory -Force -Path \"C:\\\\Users\\\\gholj\\\\Projects\\\\codetrack\\\\frontend\\\\src\\\\pages\")",
+      "PowerShell(New-Item -ItemType Directory -Force -Path \"C:\\\\Users\\\\gholj\\\\Projects\\\\codetrack\\\\frontend\\\\src\\\\components\")",
+      "PowerShell(New-Item -ItemType Directory -Force -Path \"C:\\\\Users\\\\gholj\\\\Projects\\\\codetrack\\\\frontend\\\\src\\\\api\")",
+      "PowerShell(New-Item -ItemType Directory -Force -Path \"C:\\\\Users\\\\gholj\\\\Projects\\\\codetrack\\\\frontend\\\\src\\\\context\")",
+      "PowerShell(New-Item -ItemType Directory -Force -Path \"C:\\\\Users\\\\gholj\\\\Projects\\\\codetrack\\\\frontend\\\\src\\\\hooks\")",
+      "PowerShell(New-Item -ItemType Directory -Force -Path \"C:\\\\Users\\\\gholj\\\\Projects\\\\codetrack\\\\frontend\\\\tests\")"
+    ]
+  }
+}
